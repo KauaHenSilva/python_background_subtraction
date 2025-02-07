@@ -4,7 +4,7 @@ Este repositório contém um Jupyter Notebook que demonstra a técnica de subtra
 
 ---
 
-## Notebook
+## Notebooks
 
 ### `temporal_median_filtering.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KauaHenSilva/python_background_subtraction/blob/main/temporal_median_filtering.ipynb)
 
@@ -16,6 +16,17 @@ Este notebook implementa a técnica de filtragem mediana temporal para subtraç�
 - Carregamento de vídeos armazenados no Google Drive.
 - Cálculo da mediana temporal dos quadros do vídeo.
 - Subtração de fundo utilizando a mediana temporal.
+- Exibição dos resultados diretamente no notebook.
+
+### `MOG_GMC_KNN_CNT` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KauaHenSilva/python_background_subtraction/blob/main/MOG_GMC_KNN_CNT.ipynb)
+
+**Funcionalidade:** Subtração de fundo utilizando os métodos MOG, GMC, KNN e CNT.
+
+Este notebook implementa a técnica de subtração de fundo utilizando os métodos MOG, GMC, KNN e CNT disponíveis na biblioteca OpenCV.
+
+#### Principais Funcionalidades:
+- Carregamento de vídeos armazenados no Google Drive.
+- Subtração de fundo utilizando os métodos MOG, GMC, KNN e CNT.
 - Exibição dos resultados diretamente no notebook.
 
 ---
